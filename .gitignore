@@ -1,3 +1,25 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# Node / Next.js (o frontend tem o próprio .gitignore)
+node_modules/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Segredos locais
+*.env
+.env.local
+appsettings.*.local.json
+
+# ---- Regras do .gitignore original do repositório (template Next.js) ----
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies

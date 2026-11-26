@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NF-e FICTÍCIA para testes. Subconjunto simplificado do layout 4.00. CNPJs gerados, não pertencem a empresas reais. -->
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe25261111222333000181550010000001241123456788" versao="4.00">
+      <ide>
+        <cUF>25</cUF>
+        <nNF>124</nNF>
+        <serie>1</serie>
+        <mod>55</mod>
+        <dhEmi>2026-11-20T10:00:00-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>11222333000181</CNPJ>
+        <xNome>Fornecedor Exemplo Ltda</xNome>
+      </emit>
+      <dest>
+        <CNPJ>99888777000100</CNPJ>
+        <xNome>Varejista Exemplo S.A.</xNome>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <xProd>Caixa de papelao 40x30</xProd>
+          <qCom>10.0000</qCom>
+          <vUnCom>15.5000</vUnCom>
+          <vProd>155.00</vProd>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <xProd>Fita adesiva 50m</xProd>
+          <qCom>2.0000</qCom>
+          <vUnCom>47.2500</vUnCom>
+          <vProd>94.50</vProd>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot>
+          <vNF>250.00</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>
