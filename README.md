@@ -58,6 +58,15 @@ docs/              setup local e guia de implementação
 
 Pré-requisitos: .NET 10 SDK, Node.js e PostgreSQL ([setup no Windows](docs/setup-local.md)).
 
+A senha do banco não fica no repositório. Configure uma vez:
+
+```bash
+cd backend
+dotnet user-secrets set "ConnectionStrings:Postgres" "Host=localhost;Port=5432;Database=portal_fornecedores;Username=portal;Password=SUA_SENHA" --project src/PortalFornecedores.Api
+```
+
+Com Docker, copie `.env.example` para `.env`, preencha as senhas e rode `docker compose up -d`.
+
 ```bash
 # API (http://localhost:5080)
 cd backend
